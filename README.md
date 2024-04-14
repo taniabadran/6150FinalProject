@@ -20,15 +20,15 @@ This dataset provides the stock history for Starbucks from 2014 to 2020. It incl
 ### Data Preparation: 
 The data was revised to proceed with a smooth analysis. First, the “$” was removed from the data to ensure the code would properly return the correct output. For example, this code exemplifies how the “$” was removed from the high column and turned into a float. 
 
-(Insert image here ) 
+![Panda-Revision](/graph/Picture1.png)
 
 Next, the date column was turned into a datetime using Pandas, in order to easily navigate the dates.  
 
-(Insert image here ) 
+![Panda-Datetime](/graph/Picture2.png)
 
 As a result, the data should have disregarded the “$” within the rows, and the dates have transformed into the datetime format. This dataset has 6 columns and 1691 rows.  
 
-(Insert image here ) 
+![Data-Preview](/graph/Picture3.png)
 
 There were no missing values in the data therefore, no imputations. In addition, there was no feature engineering, although this analysis utilized the cleaned data in order to find the answers to the three questions. 
 
@@ -45,25 +45,25 @@ There were no missing values in the data therefore, no imputations. In addition,
 In this analysis, pandas was used to read, clean, and to conduct statistical testing on the data. 
 ‘pd.read_csv()’ was used in order to efficiently load the dataset. 
 
-(Insert image here ) 
+![Data](/graph/Picture4.png)
 
 The pandas library allowed for the removal of the “$”. In addition to the conversion of the data from string to float. 
 
-(Insert image here ) 
+![Data](/graph/Picture5.png)
 
 Also, pandas was helpful in order to conduct statistical testing. Such as finding the maximum value within a column. 
 
-(Insert image here ) 
+![Data](/graph/Picture6.png)
 
 ### Matplotlib: 
 Matplotlib was used to visualize the trends in the data by making a plot. In this example, ‘plt.plot’ was used in order to create a plot of the high and low data over time. 
 
-(Insert image here ) 
+![Data](/graph/Picture7.png)
 
 ### Seaborn: 
 Seaborn was used to visualize the highest monthly average prices per year. In this example, ‘sns.barplot’ was used in order to create a boxplot. 
 
-(Insert image here ) 
+![Data](/graph/Picture8.png)
 
 ## Results: 
 
@@ -71,17 +71,17 @@ Seaborn was used to visualize the highest monthly average prices per year. In th
 
 First, graphs were created to visualize the stock trends. The stock prices somewhat have a positive trend. Although, there was a significant drop in 2020. 
 
-(Insert image here ) 
+![Data](/graph/Picture9.png)
 
 The high and low prices were identified for each column. 
 
-(Insert image here ) 
+![Data](/graph/Picture10.png)
 
 Based on all this data, the stock reached a high on December 10th, 2020 at a price of $106.09. The stock reached a low on April 11th, 2014. 
 
 ### Question 2: Which year did the stock price have the highest average? The lowest average?
 
-(Insert image here ) 
+![Data](/graph/Picture11.png)
 
 Based on the data, it seems that 2014 is when the company had the lowest averages within all the columns. On the other hand, the highest averages were mostly in 2020, although, the highest (low) average was in 2019. This may identify the continuous growth of the company, as the dataset showcases the history of stock prices from 2014-2020. Therefore, 2014 was the lowest and 2020 was the highest.  
 
@@ -90,19 +90,19 @@ Based on the data, it seems that 2014 is when the company had the lowest average
 
 The Highest averages:
 
-(Insert image here )
+![Data](/graph/Picture12.png)
 
 There was no consistent month that had the highest average price, although November and December did have the highest average twice. December had the highest average in 2014 and 2020. November had the highest average in 2015 and 2018. This may be due to the specialty holiday drinks available. 
 
 The Lowest averages:
 
-(Insert image here )
+![Data](/graph/Picture13.png)
 
 Throughout the years, there was no consistent month that had the lowest average price. Although January had the lowest average twice in 2015 and 2019. May be due to the removal of the specialty drinks, and people are not spending money on coffee since this is after major holidays (where a lot of money is spent). 
 
-(Insert image here )
+![Data](/graph/Picture14.png)
 
-(Insert image here )
+![Data](/graph/Picture15.png)
 
 ## Discussion: 
 
