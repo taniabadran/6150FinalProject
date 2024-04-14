@@ -109,8 +109,14 @@ Throughout the years, there was no consistent month that had the lowest average 
 Based on the analysis of Starbucks stock prices, it was concluded that the company is continuously growing. Although, there have been outside influences (which is inevitable) that may have affected this upwards trend. For example, the company peaked in 2020 but quickly started deescalating due to the declining economy from COVID-19. The lowest stock prices occurred in 2014, which may be the result of not gaining as much popularity, not enough investors, or possible controversy. When comparing the yearly averages, there was a relatively positive trend within the stock prices. Although, stocks are never linear. The price drops that occurred may have been due to economic struggle. The monthly analysis of the average stock prices showed a possible high in price due to seasonal menus, and a low due to possible need of saving money after a holiday season. Future research could include identifying patterns within the societal events within Starbucks and other coffee companies to identify if the trends are general or specific to Starbucks. 
 
 ## References: 
+
 https://pandas.pydata.org/docs/reference/api/pandas.Series.reset_index.html
+
 https://www.geeksforgeeks.org/pandas-series-dt-year/
+
 https://matplotlib.org/stable/tutorials/pyplot.html
+
 https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html
+
 https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html
+
